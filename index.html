@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Software developer portfolio — selected applications, systems and engineering work." />
+    <meta name="theme-color" content="#0b0b0b" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>Polanty — Software Developer</title>
+  </head>
+  <body>
+    <div id="cursor-glow" aria-hidden="true"></div>
+    <header class="nav-shell">
+      <a class="logo" href="#top" aria-label="Home"><span>P</span> Polanty</a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow reveal"><span class="status-dot"></span> Available for software projects</div>
+        <h1 id="hero-title" class="reveal">I build software<br />that <em>solves problems.</em></h1>
+        <div class="hero-bottom reveal">
+          <p>Software developer engineering reliable applications, backend systems and tools for startups, teams and growing businesses.</p>
+          <a class="scroll-hint" href="#work"><span>Scroll to explore</span><b>↓</b></a>
+        </div>
+        <div class="orb orb-one" aria-hidden="true"></div>
+        <div class="orb orb-two" aria-hidden="true"></div>
+      </section>
+
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <div><span class="index">01</span><h2 id="work-title">Selected work</h2></div>
+          <p>A selection of applications I’ve built.</p>
+        </div>
+
+        <article class="project reveal">
+          <a class="video-wrap tone-lime" href="#contact" aria-label="View details for Northline">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/video-poster.svg">
+              <source src="assets/project-01.mp4" type="video/mp4" />
+            </video>
+            <span class="project-number">01 / 03</span><span class="view-project">View project ↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Northline Platform</h3><p>A secure operations platform with role-based access, real-time project tracking and automated team workflows.</p></div><ul><li>TypeScript</li><li>System architecture</li><li>2026</li></ul></div>
+        </article>
+
+        <article class="project reveal">
+          <a class="video-wrap tone-blue" href="#contact" aria-label="View details for Mono Objects">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/video-poster.svg">
+              <source src="assets/project-02.mp4" type="video/mp4" />
+            </video>
+            <span class="project-number">02 / 03</span><span class="view-project">View project ↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Mono Commerce</h3><p>A scalable commerce system connecting inventory, payments and order processing through resilient service integrations.</p></div><ul><li>Distributed services</li><li>API integration</li><li>2026</li></ul></div>
+        </article>
+
+        <article class="project reveal">
+          <a class="video-wrap tone-orange" href="#contact" aria-label="View details for Elsewhere">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/video-poster.svg">
+              <source src="assets/project-03.mp4" type="video/mp4" />
+            </video>
+            <span class="project-number">03 / 03</span><span class="view-project">View project ↗</span>
+          </a>
+          <div class="project-meta"><div><h3>Elsewhere Engine</h3><p>A content processing engine with background jobs, structured data pipelines and optimized media delivery.</p></div><ul><li>Backend systems</li><li>PostgreSQL</li><li>2025</li></ul></div>
+        </article>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal"><div><span class="index">02</span><h2 id="about-title">A little context</h2></div></div>
+        <div class="about-grid">
+          <p class="about-lead reveal">Thoughtful engineering. Reliable systems. Useful software.</p>
+          <div class="about-copy reveal"><p>I work with founders and engineering teams to turn complex requirements into dependable software. My experience spans application architecture, backend services, databases, APIs, automation and intuitive user interfaces.</p><p>I contribute across the complete software lifecycle—from discovery and technical planning to implementation, testing, deployment and observability. I value simple solutions, clear code and systems that remain maintainable as products and teams grow.</p><a href="#contact">Need an engineer for your next build? <span>Let’s talk ↗</span></a></div>
+        </div>
+        <div class="marquee" aria-hidden="true"><div><span>SOFTWARE</span><i>✳</i><span>SYSTEMS</span><i>✳</i><span>AUTOMATION</span><i>✳</i><span>SOFTWARE</span><i>✳</i><span>SYSTEMS</span><i>✳</i><span>AUTOMATION</span><i>✳</i></div></div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading reveal"><div><span class="index">03</span><h2 id="contact-title">Start a conversation</h2></div></div>
+        <div class="contact-grid">
+          <div class="contact-intro reveal"><h3>Solving something?<br /><em>Let’s build it.</em></h3><p>Tell me about your product, system or technical challenge. I’ll get back to you within two working days.</p></div>
+          <form class="contact-form reveal" id="contact-form">
+            <label><span>Your name</span><input type="text" name="name" placeholder="Jane Smith" required /></label>
+            <label><span>Email address</span><input type="email" name="email" placeholder="jane@company.com" required /></label>
+            <label><span>What do you need built?</span><textarea name="message" rows="3" placeholder="An application, backend service, internal tool, integration or automation..." required></textarea></label>
+            <button type="submit"><span>Send enquiry</span><b>↗</b></button>
+            <p class="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="logo" href="#top"><span>P</span> Polanty</a>
+      <div class="socials" aria-label="Social links">
+        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a>
+      </div>
+      <p>© <span id="year"></span> Polanty. Built with clean code.</p>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

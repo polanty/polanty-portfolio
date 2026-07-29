@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151515"/><stop offset="1" stop-color="#343434"/></linearGradient><filter id="n"><feTurbulence baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .12"/></feComponentTransfer></filter></defs>
+  <rect width="1600" height="900" fill="url(#g)"/><rect width="1600" height="900" filter="url(#n)" opacity=".7"/><circle cx="800" cy="450" r="190" fill="none" stroke="#fff" stroke-opacity=".15" stroke-width="2"/><text x="800" y="465" text-anchor="middle" fill="#fff" font-family="monospace" font-size="28" letter-spacing="8">PROJECT FILM</text>
+</svg>
